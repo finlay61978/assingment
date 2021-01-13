@@ -16,3 +16,32 @@
     width: 100%;
     border-top: 0.2em solid rgb(243, 7, 7);
 }
+nav{
+	background-color: yellowgreen;
+}
+
+nav > ul > li {
+	position: relative;
+}
+nav ul {
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	text-align: center;
+
+}
+
+nav ul ul {
+	position: absolute;
+	display: block;
+	background-color: green;            /* this creates the opacity changing affect*/
+	padding: 0;
+	width: 100%;
+	opacity: 0;
+	transition: opacity 1s ease-in;
+	pointer-events: none;
+}
+ nav > ul > li:hover ul {
+ 	opacity: 1;
+ 	pointer-events: auto;
+ }
