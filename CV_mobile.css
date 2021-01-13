@@ -38,7 +38,7 @@ nav ul ul {
 	padding: 0;
 	width: 100%;
 	opacity: 0;
-	transition: opacity 1s ease-in;
+	transition: opacity 0.5s ease-in;
 	pointer-events: none;
 }
  nav > ul > li:hover ul {

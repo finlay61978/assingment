@@ -13,7 +13,7 @@ body{
 
 
 nav{
-	background-color: yellowgreen;
+	background-color: rgb(128, 0, 122);
 }
 
 nav > ul > li {
@@ -30,11 +30,11 @@ nav ul {
 nav ul ul {
 	position: absolute;
 	display: block;
-	background-color: green;            /* this creates the opacity changing affect*/
+	background-color: rgb(128, 0, 11);            /* this creates the opacity changing affect*/
 	padding: 0;
 	width: 100%;
 	opacity: 0;
-	transition: opacity 1s ease-in;
+	transition: opacity 0.5s ease-in;
 	pointer-events: none;
 }
  nav > ul > li:hover ul {
