@@ -7,6 +7,9 @@
     border-top: 0.2em solid rgb(253, 2, 2);
     border-bottom: 0.2em solid rgb(241, 9, 9);
 }
+a:hover{
+	color: red;
+}
 
 .hamburger:before {
     content: "";

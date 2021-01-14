@@ -9,7 +9,9 @@ body{
     background-position: top;
     z-index: -2;
 }
-
+a:hover{
+	color: red;
+}
 
 
 nav{

@@ -13,6 +13,9 @@ body{
 nav{
 	background-color: rgb(128, 0, 122);
 }
+a:hover{
+	color: red;
+}
 
 nav > ul > li {
 	position: relative;
