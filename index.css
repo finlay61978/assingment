@@ -9,10 +9,18 @@ body{
     background-position: top;
     z-index: -2;
 }
+
+h1{
+    font-family: 'East Sea Dokdo', cursive;
+
+}
+
 a:hover{
 	color: red;
 }
-
+nav{
+    font-family: 'East Sea Dokdo', cursive;
+}
 
 nav{
 	background-color: rgb(128, 0, 122);

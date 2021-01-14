@@ -16,6 +16,13 @@ nav{
 a:hover{
 	color: red;
 }
+h1{
+    font-family: 'East Sea Dokdo', cursive;
+
+}
+nav{
+    font-family: 'East Sea Dokdo', cursive;
+}
 
 nav > ul > li {
 	position: relative;
