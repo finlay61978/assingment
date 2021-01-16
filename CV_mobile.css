@@ -68,3 +68,9 @@ nav ul ul {
  	opacity: 1;
  	pointer-events: auto;
  }
+ .grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: #f321d0;
+	padding: 10px;
+  }
