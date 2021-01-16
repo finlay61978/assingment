@@ -19,7 +19,11 @@ h1{
 nav{
     font-family: 'East Sea Dokdo', cursive;
 }
-
+p{
+    font-size: x-large;
+    font-family: 'East Sea Dokdo', cursive;
+    color: royalblue;
+}
 .hamburger {
     position: relative;
     display: inline-block;
