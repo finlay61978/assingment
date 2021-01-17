@@ -66,3 +66,16 @@ nav ul ul {
  	opacity: 1;
  	pointer-events: auto;
  }
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+    padding: 15px;
+    opacity: 0;
+  }
+h2{
+    opacity: 0;
+}
+p{
+	font-family: 'East Sea Dokdo', cursive;
+	color: rgb(0, 255, 255);
+}
